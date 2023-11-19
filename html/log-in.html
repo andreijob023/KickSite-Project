@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF=8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KickSiteLogIn</title>
+        <link rel="stylesheet" href="/KickSite-Project/css/log-in_style.css">
+        <!----favicon need-->
+    </head>
+
+    <body>
+        <div class="container">
+            
+            <div class="forms-container">
+
+                <div class="form-section admin-form">
+                    <form action="#">
+
+                      <h2>KickSite</h2>
+                      <span>Admin Log In</span>
+                      <input type="text" placeholder="Email" required />
+                      <input type="password" placeholder="Password" required />
+                      <button>Log In</button>
+                    </form>
+                </div>
+
+                <div class="form-section enrollee-form">
+                    <form action="#">
+
+                      <h2>KickSite</h2>
+                      <span>Enrollee Log-In</span>
+                      <input type="text" placeholder="Email" required />
+                      <input type="password" placeholder="Password" required />
+    
+                      <button>LogIn</button>
+                    </form>
+                   <a href="sign-up.html" target="_blank">Sign-Up Here!</a>
+                </div>
+            </div>
+
+            <div class="overlay">
+
+                <div class="overlay-panel adlog">
+                    
+                    <div class="overlay-panel-active">
+                        <h2>Welcome Admin!</h2>
+                        <p>if youre an enrollee please log here</p>
+                        <button id="enllog-button">Enrollee</button>
+                    </div>
+                </div>
+
+                <div class="overlay-panel enllog">
+                    <div class="overlay-panel-active">
+                        <h2>Welcome Enrollee!</h2>
+                        <p>if youre an Admin please log here</p>
+                        <button id="adlog-button">Admin</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="/KickSite-Project/jscript/script.js"></script>
+    </body>
+</html>
+
+
